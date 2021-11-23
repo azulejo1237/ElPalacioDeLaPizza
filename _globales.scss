@@ -1,0 +1,33 @@
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+a {
+  font-family: $fuenteTitulo;
+  text-transform: capitalize;
+}
+p {
+  font-family: $fuenteParrafo;
+  letter-spacing: 0.1rem;
+  color: tan;
+}
+.p--color {
+  color: white;
+}
+@mixin bg-fondos {
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+@mixin bg-fondos-fixed {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}

@@ -1,0 +1,20 @@
+.menu-de-navegacion {
+  .menu-de-navegacion__contenedor {
+    padding: 0;
+    border-radius: 0;
+  }
+  .menu-de-navegacion__logo {
+    height: 6.4rem;
+  }
+  .menu-de-navegacion__titulo {
+    line-height: 4rem;
+  }
+  @media (max-width: 320px) {
+    .menu-de-navegacion__titulo {
+      font-size: 1.1rem;
+    }
+  }
+}
+.menu-de-navegacion__contenido-nav {
+  padding-right: 17rem;
+}

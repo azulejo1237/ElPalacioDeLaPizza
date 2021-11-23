@@ -1,0 +1,633 @@
+@charset "UTF-8";
+.menu-de-navegacion .menu-de-navegacion__contenedor {
+  padding: 0;
+  border-radius: 0;
+}
+.menu-de-navegacion .menu-de-navegacion__logo {
+  height: 6.4rem;
+}
+.menu-de-navegacion .menu-de-navegacion__titulo {
+  line-height: 4rem;
+}
+@media (max-width: 320px) {
+  .menu-de-navegacion .menu-de-navegacion__titulo {
+    font-size: 1.1rem;
+  }
+}
+
+.menu-de-navegacion__contenido-nav {
+  padding-right: 17rem;
+}
+
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: "Courgette", cursive;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: "Bubblegum Sans", cursive;
+  letter-spacing: 0.1rem;
+  color: tan;
+}
+
+.p--color {
+  color: white;
+}
+
+.bienvenida__botones--Rojos, .menu__botones--Rojos {
+  background: orange;
+  border-radius: 5rem;
+  padding: 1.2rem 3rem;
+  border: 0;
+  margin: 5rem 0 5rem 0;
+  font-size: 1.2rem;
+}
+.bienvenida__botones--Rojos .bienvenida__boton--Rojo, .bienvenida__botones--Rojos .menu__boton--rojo, .menu__botones--Rojos .bienvenida__boton--Rojo, .menu__botones--Rojos .menu__boton--rojo {
+  color: white;
+}
+.bienvenida__botones--Rojos .bienvenida__boton--Rojo:hover, .bienvenida__botones--Rojos .menu__boton--rojo:hover, .menu__botones--Rojos .bienvenida__boton--Rojo:hover, .menu__botones--Rojos .menu__boton--rojo:hover {
+  color: gold;
+}
+
+.bienvenida__botones--Rojos:hover, .menu__botones--Rojos:hover {
+  background-color: red;
+}
+
+.menu__botones--Rojos {
+  padding: 1rem 1rem;
+}
+
+.menu__boton--rojo {
+  padding: 0 1rem;
+}
+
+.botonReservas, .boton-contacto {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 8rem;
+  background-color: red;
+  border: crimson;
+  border-radius: 0.6rem;
+}
+
+.boton-contacto {
+  padding: 0.6rem 10rem;
+}
+
+.boton-contacto:hover {
+  background-color: crimson;
+}
+
+.fondoFormulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0) 12%, rgba(0, 0, 0, 0.749737395) 87%);
+  margin: 2rem 2rem;
+  border-radius: 2rem;
+}
+.fondoFormulario .fieldsetFormulario {
+  padding: 1rem 15rem;
+  border: 0;
+}
+.fondoFormulario .reservaTitulo {
+  font-size: 2rem;
+  color: red;
+  padding: 2rem 0;
+  background-color: rgba(5, 0, 0, 0.63);
+}
+.fondoFormulario .formularioReserva {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black;
+  border-radius: 3rem;
+  background-color: rgba(5, 0, 0, 0.63);
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+.fondoFormulario .reservasInput {
+  border-radius: 10rem;
+  font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .fondoFormulario .fieldsetFormulario {
+    padding: 0rem 0rem;
+    border: 0;
+  }
+}
+
+.formulario-contacto {
+  margin: 1rem 2rem;
+}
+
+.fondoFormularioContacto {
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem;
+  align-items: center;
+  background: white;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 10%, rgba(0, 0, 0, 0.749737395) 91%);
+}
+.fondoFormularioContacto .fieldsetFormularioContacto {
+  border: 0;
+}
+.fondoFormularioContacto .contacto-legend {
+  background-color: #3d3838;
+  margin: 0;
+}
+.fondoFormularioContacto .contacto-titulo {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.9rem;
+  line-height: 1.5;
+  color: white;
+  font-family: "Bree Serif", serif;
+}
+.fondoFormularioContacto .consulta-subtitulo {
+  color: red;
+  font-size: 1.8rem;
+  font-family: "Courgette", cursive;
+  line-height: 2;
+}
+.fondoFormularioContacto .formularioContacto {
+  position: relative;
+  background-color: #3d3838;
+  color: white;
+  bottom: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.fondoFormularioContacto .tituloFormulario {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: yellow;
+  font-family: "Bubblegum Sans", cursive;
+}
+.fondoFormularioContacto .pizzaImgContacto {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nosotros .nosotros__aside {
+  display: flex;
+  margin: 2rem;
+  border: solid black 0.1rem;
+  border-radius: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nosotros .nosotros__info {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+.nosotros .nosotros__img {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  padding: 2rem 2rem;
+}
+.nosotros .nosotros__parrafo {
+  display: flex;
+  align-items: center;
+  color: saddlebrown;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  margin-top: 5rem;
+  margin-right: 3rem;
+}
+@media (max-width: 768px) {
+  .nosotros .nosotros__aside {
+    display: block;
+  }
+  .nosotros .nosotros__parrafo {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    margin-right: 0;
+    padding: 0 1rem;
+  }
+}
+
+.fondo__Menu--ladrillos {
+  background-image: url(img/Pared-De-Ladrillos.jpeg);
+  overflow-x: hidden;
+}
+.fondo__Menu--ladrillos .menu__cartel--centrado {
+  background-image: url(img/Madera2.jpg);
+  background-size: cover;
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: 4rem;
+  border: solid black;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+.fondo__Menu--ladrillos .seccionMenuPrincipal {
+  margin: 10rem 0 0 0;
+  background-color: rgba(20, 16, 16, 0.9);
+  color: white;
+  border: solid black 0.3rem;
+  border-radius: 3rem;
+}
+.fondo__Menu--ladrillos .contenedorMenuPrincipal div {
+  display: grid;
+  font-size: 1.5rem;
+  grid-gap: 1rem;
+  justify-content: center;
+  margin: 3rem 0 3rem 0;
+}
+.fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
+  font-size: 4rem;
+  border: solid black 0.3rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  color: #f7ff00;
+  background-image: url(img/Madera-Con-luces.jpg);
+  background-size: cover;
+  font-family: "Bree Serif", serif;
+}
+.fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+  height: 20rem;
+  width: 25rem;
+  align-content: center;
+  object-fit: cover;
+  border-radius: 2.1rem;
+}
+.fondo__Menu--ladrillos .contenedorMenuPrincipal img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.fondo__Menu--ladrillos .tituloImg {
+  font-size: 1.8rem;
+}
+.fondo__Menu--ladrillos .precio {
+  color: wheat;
+  font-size: 1.5rem;
+}
+.fondo__Menu--ladrillos .menuPizzas,
+.fondo__Menu--ladrillos .menuEmpanadas,
+.fondo__Menu--ladrillos .menuFainas,
+.fondo__Menu--ladrillos .menuPostres {
+  grid-template-columns: repeat(3, 1fr);
+}
+.fondo__Menu--ladrillos .menuPicadas,
+.fondo__Menu--ladrillos .menuFainas {
+  grid-template-columns: repeat(2, 1fr);
+}
+.fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+  width: 20rem;
+  height: 30rem;
+}
+@media (min-width: 1200px) {
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+    height: 15rem;
+    width: 21rem;
+    border-radius: 2.1rem;
+  }
+  .fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+    width: 25rem;
+    height: 30rem;
+  }
+}
+@media (min-width: 1024px) {
+  .fondo__Menu--ladrillos .menu__cartel--centrado {
+    margin: 5rem 26rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+    height: 15rem;
+    width: 17rem;
+    border-radius: 2.1rem;
+  }
+  .fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+    width: 25rem;
+    height: 30rem;
+  }
+}
+@media (max-width: 768px) {
+  .fondo__Menu--ladrillos .menu__cartel--centrado {
+    margin: 5rem 10rem;
+  }
+  .fondo__Menu--ladrillos .menuPizzas,
+.fondo__Menu--ladrillos .menuEmpanadas,
+.fondo__Menu--ladrillos .menuFainas,
+.fondo__Menu--ladrillos .menuPostres {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
+    margin: 5rem;
+    margin-bottom: 5rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+    height: 10em;
+    width: 17rem;
+    border-radius: 5rem;
+  }
+  .fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+    width: 17rem;
+    height: 25rem;
+  }
+}
+@media (max-width: 600px) {
+  .fondo__Menu--ladrillos .menu__cartel--centrado {
+    margin: 5rem 0;
+  }
+  .fondo__Menu--ladrillos .menuPizzas,
+.fondo__Menu--ladrillos .menuEmpanadas,
+.fondo__Menu--ladrillos .menuFainas,
+.fondo__Menu--ladrillos .menuPicadas,
+.fondo__Menu--ladrillos .menuPostres {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
+    margin: 5rem;
+    margin-bottom: 5rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+    height: 15em;
+    width: 30rem;
+    border-radius: 5rem;
+  }
+  .fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+    width: 30rem;
+    height: 40rem;
+  }
+}
+@media (max-width: 480px) {
+  .fondo__Menu--ladrillos .menu__cartel--centrado {
+    margin: 5rem 0;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+    height: 15em;
+    width: 24rem;
+    border-radius: 5rem;
+  }
+  .fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+    width: 25rem;
+    height: 35rem;
+  }
+  .fondo__Menu--ladrillos .precio {
+    color: wheat;
+    font-size: 3rem;
+  }
+  .fondo__Menu--ladrillos .tituloImg {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 320px) {
+  .fondo__Menu--ladrillos .menu__cartel--centrado {
+    margin: 5rem 0;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+    height: 12rem;
+    width: 16rem;
+    border-radius: 5rem;
+  }
+  .fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+    width: 15rem;
+    height: 20rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
+    font-size: 4rem;
+  }
+  .fondo__Menu--ladrillos .precio {
+    color: wheat;
+    font-size: 2rem;
+  }
+  .fondo__Menu--ladrillos .tituloImg {
+    font-size: 3rem;
+  }
+}
+
+.contenedorCarousel img {
+  object-fit: cover;
+  height: 105vh;
+}
+.contenedorCarousel .carousel-caption {
+  transform: translateY(-50%);
+  bottom: initial;
+  top: 50%;
+}
+.contenedorCarousel .fondoDeCarousel {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+}
+.contenedorCarousel h2 {
+  font-size: 5rem;
+  line-height: 1.5;
+  color: orange;
+}
+.contenedorCarousel p {
+  font-size: 1.3rem;
+  color: white;
+}
+@media (max-width: 320px) {
+  .contenedorCarousel h2 {
+    font-size: 2rem;
+  }
+  .contenedorCarousel p {
+    font-size: 1.2rem;
+  }
+}
+
+.bienvenida__seccion {
+  background-image: url(img/Madera1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 15rem;
+  display: flex;
+  justify-content: center;
+}
+.bienvenida__seccion .bienvenida__contenedor {
+  border-bottom: 0.2rem solid transparent;
+}
+.bienvenida__seccion .bienvenida__titulo {
+  color: white;
+  font-size: 3rem;
+}
+.bienvenida__seccion .bienvenida__subtitulo {
+  color: orange;
+  font-size: 2rem;
+}
+.bienvenida__seccion .bienvenida__parrafo {
+  font-size: 1.5rem;
+}
+
+.fondo__menu {
+  background-image: url(img/Fondo-bar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.fondo__menu .contenedor__menu {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0rem;
+}
+.fondo__menu .menu__img img {
+  height: 15rem;
+  width: 20rem;
+  border: solid black 0.2rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  margin: 1rem 1rem;
+}
+.fondo__menu .picada {
+  height: 25rem;
+}
+.fondo__menu .menu__cartel {
+  background-image: url(img/Madera2.jpg);
+  background-size: cover;
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: 3rem;
+  border: solid black;
+  border-radius: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  width: 20rem;
+}
+
+.pedidos {
+  background-image: url(img/Imagen-De-Pizzeria.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.pedidos .pedidos__seccion {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.pedidos .pedidos__aside {
+  margin: 2rem;
+  border: solid black 0.1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.pedidos .pedidos__subtitulo {
+  color: red;
+  font-size: 1.5rem;
+}
+.pedidos .pedidos__titulo {
+  color: gold;
+  font-size: 2.5rem;
+}
+.pedidos .pedidos__parrafo {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+.pedidos .pedidos__parrafo-2 {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+.pedidos .pedidos__img {
+  width: 40%;
+  height: 50%;
+  margin: 2rem 2rem;
+  border: solid black 0.1rem;
+}
+@media (max-width: 600px) {
+  .pedidos .pedidos__subtitulo {
+    color: red;
+    font-size: 1rem;
+  }
+  .pedidos .pedidos__titulo {
+    color: gold;
+    font-size: 2rem;
+  }
+  .pedidos .pedidos__parrafo {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .pedidos .pedidos__parrafo-2 {
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  .pedidos .pedidos__img {
+    width: 40%;
+    height: 28vh;
+    margin: 2rem 2rem;
+    border: solid black 0.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .pedidos .pedidos__seccion {
+    display: inline;
+    overflow: hidden;
+  }
+  .pedidos .pedidos__img {
+    width: 70%;
+    height: 100%;
+  }
+}
+
+footer .nosotros__footer,
+footer .menu__footer,
+footer .reservas__footer,
+footer .contacto__footer {
+  font-family: "Bree Serif", serif;
+}
+footer .icono__visa--tamaño,
+footer .icono__mastercard--tamaño,
+footer .icono__american-express--tamaño {
+  height: 3rem;
+  margin: 0 0.5rem;
+}
+footer .icono__facebook--tamaño,
+footer .icono__instagram--tamaño {
+  height: 3rem;
+  margin: 0 1rem;
+}
+footer .derechos-reservados__fondo {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=Styles.css.map */

@@ -1,0 +1,46 @@
+// Boton Bienvenida
+.bienvenida__botones--Rojos {
+  background: orange;
+  border-radius: 5rem;
+  padding: 1.2rem 3rem;
+  border: 0;
+  margin: 5rem 0 5rem 0;
+  font-size: 1.2rem;
+  .bienvenida__boton--Rojo {
+    color: white;
+  }
+  .bienvenida__boton--Rojo:hover {
+    color: gold;
+  }
+}
+.bienvenida__botones--Rojos:hover {
+  background-color: red;
+}
+
+// Boton Menu
+.menu__botones--Rojos {
+  @extend .bienvenida__botones--Rojos;
+  padding: 1rem 1rem;
+}
+.menu__boton--rojo {
+  @extend .bienvenida__boton--Rojo;
+  padding: 0 1rem;
+}
+
+// Boton Reserva
+.botonReservas {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 8rem;
+  background-color: red;
+  border: crimson;
+  border-radius: 0.6rem;
+}
+.boton-contacto {
+  @extend .botonReservas;
+  padding: 0.6rem 10rem;
+}
+.boton-contacto:hover {
+  background-color: crimson;
+}

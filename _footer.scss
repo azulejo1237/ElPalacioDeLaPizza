@@ -1,0 +1,26 @@
+footer {
+  // Navegacion
+  .nosotros__footer,
+  .menu__footer,
+  .reservas__footer,
+  .contacto__footer {
+    font-family: $fuenteMenu;
+  }
+  // Medios de pago
+  .icono__visa--tamaño,
+  .icono__mastercard--tamaño,
+  .icono__american-express--tamaño {
+    height: 3rem;
+    margin: 0 0.5rem;
+  }
+  // Redes
+  .icono__facebook--tamaño,
+  .icono__instagram--tamaño {
+    height: 3rem;
+    margin: 0 1rem;
+  }
+  // Derechos reservados
+  .derechos-reservados__fondo {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
