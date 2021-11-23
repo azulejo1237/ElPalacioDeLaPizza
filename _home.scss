@@ -118,7 +118,7 @@
     line-height: 2rem;
     letter-spacing: 0.1rem;
   }
-  .pedidos__parrafo-2{
+  .pedidos__parrafo-2 {
     color: white;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -144,7 +144,7 @@
       line-height: 1rem;
       letter-spacing: 0.1rem;
     }
-    .pedidos__parrafo-2{
+    .pedidos__parrafo-2 {
       font-size: 1rem;
       line-height: 1rem;
       letter-spacing: 0.1rem;
@@ -155,15 +155,15 @@
       margin: 2rem 2rem;
       border: solid rgb(0, 0, 0) 0.1rem;
     }
+  }
+  @media (max-width: 768px) {
+    .pedidos__seccion {
+      display: inline;
+      overflow: hidden;
     }
-    @media (max-width: 768px) {
-      .pedidos__seccion{
-        display: inline;
-        overflow: hidden;
-      }
-      .pedidos__img {
-        width: 70%;
-        height: 100%;
-      }
-      }
+    .pedidos__img {
+      width: 70%;
+      height: 100%;
+    }
+  }
 }
