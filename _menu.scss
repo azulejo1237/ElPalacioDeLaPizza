@@ -12,6 +12,7 @@
     text-align: center;
     padding: 1rem 0;
     text-transform: uppercase;
+    margin: 10rem 30rem;
   }
   .seccionMenuPrincipal {
     margin: 10rem 0 0 0;
@@ -38,8 +39,8 @@
     font-family: $fuenteMenu;
   }
   .contenedorMenuPrincipal img {
-    height: 20rem;
-    width: 25rem;
+    height: 15rem;
+    width: 20rem;
     align-content: center;
     object-fit: cover;
     border-radius: 2.1rem;
@@ -70,26 +71,9 @@
     width: 20rem;
     height: 30rem;
   }
-  @media (min-width: 1200px) {
-    .contenedorMenuPrincipal div {
-      margin: 2rem;
-      margin-bottom: 5rem;
-    }
-    .contenedorMenuPrincipal img {
-      height: 15rem;
-      width: 21rem;
-      border-radius: 2.1rem;
-    }
-    .picadaPara2 img,
-    .picadaPara4 img {
-      width: 25rem;
-      height: 30rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
+  @media (max-width: 1200px) {
     .menu__cartel--centrado {
-      margin: 5rem 26rem;
+      margin: 10rem 25rem;
     }
     .contenedorMenuPrincipal div {
       margin: 2rem;
@@ -104,6 +88,26 @@
     .picadaPara4 img {
       width: 25rem;
       height: 30rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .menu__cartel--centrado {
+      margin: 5rem 20rem;
+    }
+    .contenedorMenuPrincipal div {
+      margin: 2rem;
+      margin-bottom: 5rem;
+    }
+    .contenedorMenuPrincipal img {
+      height: 10rem;
+      width: 12rem;
+      border-radius: 2.1rem;
+    }
+    .picadaPara2 img,
+    .picadaPara4 img {
+      width: 15rem;
+      height: 20rem;
     }
   }
 
@@ -122,17 +126,17 @@
       margin-bottom: 5rem;
     }
     .contenedorMenuPrincipal img {
-      height: 10em;
-      width: 17rem;
+      height: 7em;
+      width: 14rem;
       border-radius: 5rem;
     }
     .picadaPara2 img,
     .picadaPara4 img {
-      width: 17rem;
-      height: 25rem;
+      width: 15rem;
+      height: 20rem;
     }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 640px) {
     .menu__cartel--centrado {
       margin: 5rem 0;
     }
@@ -154,8 +158,8 @@
     }
     .picadaPara2 img,
     .picadaPara4 img {
-      width: 30rem;
-      height: 40rem;
+      width: 15rem;
+      height: 20rem;
     }
   }
 
@@ -165,13 +169,13 @@
     }
     .contenedorMenuPrincipal img {
       height: 15em;
-      width: 24rem;
+      width: 20rem;
       border-radius: 5rem;
     }
     .picadaPara2 img,
     .picadaPara4 img {
-      width: 25rem;
-      height: 35rem;
+      width: 15rem;
+      height: 20rem;
     }
     .precio {
       color: wheat;

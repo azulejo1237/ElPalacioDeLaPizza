@@ -255,6 +255,7 @@ p {
   text-align: center;
   padding: 1rem 0;
   text-transform: uppercase;
+  margin: 10rem 30rem;
 }
 .fondo__Menu--ladrillos .seccionMenuPrincipal {
   margin: 10rem 0 0 0;
@@ -281,8 +282,8 @@ p {
   font-family: "Bree Serif", serif;
 }
 .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
-  height: 20rem;
-  width: 25rem;
+  height: 15rem;
+  width: 20rem;
   align-content: center;
   object-fit: cover;
   border-radius: 2.1rem;
@@ -313,25 +314,9 @@ p {
   width: 20rem;
   height: 30rem;
 }
-@media (min-width: 1200px) {
-  .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
-    margin: 2rem;
-    margin-bottom: 5rem;
-  }
-  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
-    height: 15rem;
-    width: 21rem;
-    border-radius: 2.1rem;
-  }
-  .fondo__Menu--ladrillos .picadaPara2 img,
-.fondo__Menu--ladrillos .picadaPara4 img {
-    width: 25rem;
-    height: 30rem;
-  }
-}
-@media (min-width: 1024px) {
+@media (max-width: 1200px) {
   .fondo__Menu--ladrillos .menu__cartel--centrado {
-    margin: 5rem 26rem;
+    margin: 10rem 25rem;
   }
   .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
     margin: 2rem;
@@ -346,6 +331,25 @@ p {
 .fondo__Menu--ladrillos .picadaPara4 img {
     width: 25rem;
     height: 30rem;
+  }
+}
+@media (max-width: 1024px) {
+  .fondo__Menu--ladrillos .menu__cartel--centrado {
+    margin: 5rem 20rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
+    height: 10rem;
+    width: 12rem;
+    border-radius: 2.1rem;
+  }
+  .fondo__Menu--ladrillos .picadaPara2 img,
+.fondo__Menu--ladrillos .picadaPara4 img {
+    width: 15rem;
+    height: 20rem;
   }
 }
 @media (max-width: 768px) {
@@ -363,17 +367,17 @@ p {
     margin-bottom: 5rem;
   }
   .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
-    height: 10em;
-    width: 17rem;
+    height: 7em;
+    width: 14rem;
     border-radius: 5rem;
   }
   .fondo__Menu--ladrillos .picadaPara2 img,
 .fondo__Menu--ladrillos .picadaPara4 img {
-    width: 17rem;
-    height: 25rem;
+    width: 15rem;
+    height: 20rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .fondo__Menu--ladrillos .menu__cartel--centrado {
     margin: 5rem 0;
   }
@@ -395,8 +399,8 @@ p {
   }
   .fondo__Menu--ladrillos .picadaPara2 img,
 .fondo__Menu--ladrillos .picadaPara4 img {
-    width: 30rem;
-    height: 40rem;
+    width: 15rem;
+    height: 20rem;
   }
 }
 @media (max-width: 480px) {
@@ -405,13 +409,13 @@ p {
   }
   .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
     height: 15em;
-    width: 24rem;
+    width: 20rem;
     border-radius: 5rem;
   }
   .fondo__Menu--ladrillos .picadaPara2 img,
 .fondo__Menu--ladrillos .picadaPara4 img {
-    width: 25rem;
-    height: 35rem;
+    width: 15rem;
+    height: 20rem;
   }
   .fondo__Menu--ladrillos .precio {
     color: wheat;
