@@ -13,6 +13,11 @@
     .menu-de-navegacion__titulo {
       font-size: 1.1rem;
     }
+    @media (max-width: 240px) {
+      .menu-de-navegacion__titulo {
+        font-size: 0.8rem;
+      }
+    }
   }
 }
 .menu-de-navegacion__contenido-nav {
