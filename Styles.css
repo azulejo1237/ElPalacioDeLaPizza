@@ -14,16 +14,21 @@
     font-size: 1.1rem;
   }
 }
-@media (max-width: 320px) and (max-width: 240px) {
+@media (max-width: 240px) {
   .menu-de-navegacion .menu-de-navegacion__titulo {
     font-size: 0.8rem;
   }
 }
 
 .menu-de-navegacion__contenido-nav {
-  padding-right: 17rem;
+  margin-right: 17rem;
 }
 
+@media (max-width: 767px) {
+  .menu-de-navegacion__contenido-nav {
+    margin-right: 0;
+  }
+}
 * {
   text-align: center;
   padding: 0;
@@ -465,7 +470,7 @@ p {
   font-size: 1.3rem;
   color: white;
 }
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   .contenedorCarousel h2 {
     font-size: 2.5rem;
   }

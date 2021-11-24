@@ -13,13 +13,18 @@
     .menu-de-navegacion__titulo {
       font-size: 1.1rem;
     }
-    @media (max-width: 240px) {
-      .menu-de-navegacion__titulo {
-        font-size: 0.8rem;
-      }
+  }
+  @media (max-width: 240px) {
+    .menu-de-navegacion__titulo {
+      font-size: 0.8rem;
     }
   }
 }
 .menu-de-navegacion__contenido-nav {
-  padding-right: 17rem;
+  margin-right: 17rem;
+}
+@media (max-width: 767px) {
+  .menu-de-navegacion__contenido-nav {
+    margin-right: 0;
+  }
 }
