@@ -335,7 +335,7 @@ p {
 }
 @media (max-width: 1024px) {
   .fondo__Menu--ladrillos .menu__cartel--centrado {
-    margin: 5rem 20rem;
+    margin: 5rem 15rem;
   }
   .fondo__Menu--ladrillos .contenedorMenuPrincipal div {
     margin: 2rem;
