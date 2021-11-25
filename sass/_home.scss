@@ -51,7 +51,7 @@
 
 // Bienvenida
 .bienvenida__seccion {
-  background-image: url(img/Madera1.jpg);
+  background-image: url(../img/Madera1.jpg);
   @include bg-fondos;
   display: flex;
   justify-content: center;
@@ -87,7 +87,7 @@
 
 // Menu comidas
 .fondo__menu {
-  background-image: url(img/Fondo-bar.jpg);
+  background-image: url(../img/Fondo-bar.jpg);
   @include bg-fondos-fixed;
   .contenedor__menu {
     display: flex;
@@ -95,7 +95,7 @@
     margin: 8rem 0rem;
   }
   .menu__cartel {
-    background-image: url(img/Madera2.jpg);
+    background-image: url(../img/Madera2.jpg);
     background-size: cover;
     font-family: $fuenteMenu;
     color: white;
@@ -135,7 +135,7 @@
 
 // Pedidos
 .pedidos {
-  background-image: url(img/Imagen-De-Pizzeria.jpg);
+  background-image: url(../img/Imagen-De-Pizzeria.jpg);
   @include bg-fondos-fixed;
   .pedidos__seccion {
     display: flex;

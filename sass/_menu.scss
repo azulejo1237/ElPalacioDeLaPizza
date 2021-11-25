@@ -1,8 +1,8 @@
 .fondo__Menu--ladrillos {
-  background-image: url(img/Pared-De-Ladrillos.jpeg);
+  background-image: url(../img/Pared-De-Ladrillos.jpeg);
   overflow-x: hidden;
   .menu__cartel--centrado {
-    background-image: url(img/Madera2.jpg);
+    background-image: url(../img/Madera2.jpg);
     background-size: cover;
     font-family: $fuenteMenu;
     color: white;
@@ -34,7 +34,7 @@
     border-radius: 10rem;
     text-transform: uppercase;
     color: #f7ff00;
-    background-image: url(img/Madera-Con-luces.jpg);
+    background-image: url(../img/Madera-Con-luces.jpg);
     background-size: cover;
     font-family: $fuenteMenu;
   }

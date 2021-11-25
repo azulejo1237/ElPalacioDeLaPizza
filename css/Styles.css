@@ -241,11 +241,11 @@ p {
 }
 
 .fondo__Menu--ladrillos {
-  background-image: url(img/Pared-De-Ladrillos.jpeg);
+  background-image: url(../img/Pared-De-Ladrillos.jpeg);
   overflow-x: hidden;
 }
 .fondo__Menu--ladrillos .menu__cartel--centrado {
-  background-image: url(img/Madera2.jpg);
+  background-image: url(../img/Madera2.jpg);
   background-size: cover;
   font-family: "Bree Serif", serif;
   color: white;
@@ -277,7 +277,7 @@ p {
   border-radius: 10rem;
   text-transform: uppercase;
   color: #f7ff00;
-  background-image: url(img/Madera-Con-luces.jpg);
+  background-image: url(../img/Madera-Con-luces.jpg);
   background-size: cover;
   font-family: "Bree Serif", serif;
 }
@@ -500,7 +500,7 @@ p {
 }
 
 .bienvenida__seccion {
-  background-image: url(img/Madera1.jpg);
+  background-image: url(../img/Madera1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -537,7 +537,7 @@ p {
 }
 
 .fondo__menu {
-  background-image: url(img/Fondo-bar.jpg);
+  background-image: url(../img/Fondo-bar.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -549,7 +549,7 @@ p {
   margin: 8rem 0rem;
 }
 .fondo__menu .menu__cartel {
-  background-image: url(img/Madera2.jpg);
+  background-image: url(../img/Madera2.jpg);
   background-size: cover;
   font-family: "Bree Serif", serif;
   color: white;
@@ -587,7 +587,7 @@ p {
 }
 
 .pedidos {
-  background-image: url(img/Imagen-De-Pizzeria.jpg);
+  background-image: url(../img/Imagen-De-Pizzeria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
