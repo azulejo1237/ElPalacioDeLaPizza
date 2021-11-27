@@ -6,18 +6,26 @@ footer {
   .contacto__footer {
     font-family: $fuenteMenu;
   }
-  // Medios de pago
-  .icono__visa--tamaño,
-  .icono__mastercard--tamaño,
-  .icono__american-express--tamaño {
+  .icono-footer {
     height: 3rem;
+    width: 3rem;
     margin: 0 0.5rem;
   }
-  // Redes
-  .icono__facebook--tamaño,
-  .icono__instagram--tamaño {
+  .icono-footer__mastercard--tamaño{
     height: 3rem;
-    margin: 0 1rem;
+    width: 5rem;
+  }
+  .icono-footer__visa--tamaño{
+    bottom: 0.8rem;
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+  }
+  .icono-footer__american-express--tamaño {
+    position: relative;
+    bottom: 0.4rem;
+    height: 4rem;
+    width: 4rem;
   }
   // Derechos reservados
   .derechos-reservados__fondo {

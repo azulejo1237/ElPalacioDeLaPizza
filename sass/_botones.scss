@@ -36,10 +36,19 @@
   background-color: red;
   border: crimson;
   border-radius: 0.6rem;
+  @media (max-width:900px) {
+    padding: 1rem 3em;
+  }
 }
 .boton-contacto {
   @extend .botonReservas;
   padding: 0.6rem 10rem;
+  @media (max-width:450px) {
+    padding: 1rem 3rem;
+  }
+  @media (max-width:360px) {
+    padding: 1rem 3rem;
+  }
 }
 .boton-contacto:hover {
   background-color: crimson;

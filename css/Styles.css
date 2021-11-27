@@ -5,13 +5,14 @@
 }
 .menu-de-navegacion .menu-de-navegacion__logo {
   height: 6.4rem;
+  width: 6.4rem;
 }
 .menu-de-navegacion .menu-de-navegacion__titulo {
   line-height: 4rem;
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .menu-de-navegacion .menu-de-navegacion__titulo {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 240px) {
@@ -91,9 +92,24 @@ p {
   border: crimson;
   border-radius: 0.6rem;
 }
+@media (max-width: 900px) {
+  .botonReservas, .boton-contacto {
+    padding: 1rem 3em;
+  }
+}
 
 .boton-contacto {
   padding: 0.6rem 10rem;
+}
+@media (max-width: 450px) {
+  .boton-contacto {
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 360px) {
+  .boton-contacto {
+    padding: 1rem 3rem;
+  }
 }
 
 .boton-contacto:hover {
@@ -241,7 +257,7 @@ p {
 }
 
 .fondo__Menu--ladrillos {
-  background-image: url(../img/Pared-De-Ladrillos.jpeg);
+  background-image: url(../img/Pared-De-Ladrillos.jpg);
   overflow-x: hidden;
 }
 .fondo__Menu--ladrillos .menu__cartel--centrado {
@@ -269,17 +285,26 @@ p {
   font-size: 1.5rem;
   grid-gap: 1rem;
   justify-content: center;
-  margin: 3rem 0 3rem 0;
+  margin: 1rem 0 3rem 0;
+}
+.fondo__Menu--ladrillos .menuComidaNombre {
+  background-image: url(../img/Madera-Con-luces.jpg);
+  border-radius: 10rem;
+  height: 6rem;
+  overflow: hidden;
 }
 .fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
   font-size: 4rem;
   border: solid black 0.3rem;
   border-radius: 10rem;
   text-transform: uppercase;
-  color: #f7ff00;
-  background-image: url(../img/Madera-Con-luces.jpg);
+  color: #FFD100;
   background-size: cover;
+  padding: 0 15rem;
   font-family: "Bree Serif", serif;
+  border: solid black 0.1rem;
+  background-color: rgba(24, 12, 12, 0.6);
+  line-height: 5.9rem;
 }
 .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
   height: 15rem;
@@ -352,9 +377,19 @@ p {
     height: 20rem;
   }
 }
+@media (max-width: 900px) {
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
+    font-size: 3rem;
+    padding: 0 10rem;
+  }
+}
 @media (max-width: 768px) {
   .fondo__Menu--ladrillos .menu__cartel--centrado {
-    margin: 5rem 10rem;
+    margin: 5rem 15rem;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
+    font-size: 3rem;
+    padding: 0 5rem;
   }
   .fondo__Menu--ladrillos .menuPizzas,
 .fondo__Menu--ladrillos .menuEmpanadas,
@@ -381,6 +416,10 @@ p {
   .fondo__Menu--ladrillos .menu__cartel--centrado {
     margin: 5rem 0;
   }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
+    font-size: 3rem;
+    padding: 0 1rem;
+  }
   .fondo__Menu--ladrillos .menuPizzas,
 .fondo__Menu--ladrillos .menuEmpanadas,
 .fondo__Menu--ladrillos .menuFainas,
@@ -406,6 +445,10 @@ p {
 @media (max-width: 480px) {
   .fondo__Menu--ladrillos .menu__cartel--centrado {
     margin: 5rem 0;
+  }
+  .fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
+    font-size: 1rem;
+    padding: 0 4rem;
   }
   .fondo__Menu--ladrillos .contenedorMenuPrincipal img {
     height: 15em;
@@ -440,7 +483,8 @@ p {
     height: 20rem;
   }
   .fondo__Menu--ladrillos .contenedorMenuPrincipal h3 {
-    font-size: 4rem;
+    font-size: 2.3rem;
+    padding: 0 0.1px;
   }
   .fondo__Menu--ladrillos .precio {
     color: wheat;
@@ -482,7 +526,7 @@ p {
     font-size: 1.2rem;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .contenedorCarousel h2 {
     font-size: 2rem;
   }
@@ -578,7 +622,7 @@ p {
   }
   .fondo__menu .menu__img img {
     height: 100%;
-    width: 100%;
+    width: 90%;
     margin: 1rem 0rem;
   }
   .fondo__menu .picada {
@@ -605,6 +649,7 @@ p {
 .pedidos .pedidos__subtitulo {
   color: red;
   font-size: 1.5rem;
+  margin-top: 1rem;
 }
 .pedidos .pedidos__titulo {
   color: gold;
@@ -615,12 +660,14 @@ p {
   font-size: 1.5rem;
   line-height: 2rem;
   letter-spacing: 0.1rem;
+  margin: 1rem 1rem;
 }
 .pedidos .pedidos__parrafo-2 {
   color: white;
   font-size: 1.5rem;
   line-height: 2rem;
   letter-spacing: 0.1rem;
+  margin: 1rem 1rem;
 }
 .pedidos .pedidos__img {
   width: 40%;
@@ -671,16 +718,26 @@ footer .reservas__footer,
 footer .contacto__footer {
   font-family: "Bree Serif", serif;
 }
-footer .icono__visa--tamaño,
-footer .icono__mastercard--tamaño,
-footer .icono__american-express--tamaño {
+footer .icono-footer {
   height: 3rem;
+  width: 3rem;
   margin: 0 0.5rem;
 }
-footer .icono__facebook--tamaño,
-footer .icono__instagram--tamaño {
+footer .icono-footer__mastercard--tamaño {
   height: 3rem;
-  margin: 0 1rem;
+  width: 5rem;
+}
+footer .icono-footer__visa--tamaño {
+  bottom: 0.8rem;
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+}
+footer .icono-footer__american-express--tamaño {
+  position: relative;
+  bottom: 0.4rem;
+  height: 4rem;
+  width: 4rem;
 }
 footer .derechos-reservados__fondo {
   background-color: rgba(0, 0, 0, 0.2);

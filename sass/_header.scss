@@ -5,13 +5,14 @@
   }
   .menu-de-navegacion__logo {
     height: 6.4rem;
+    width: 6.4rem;
   }
   .menu-de-navegacion__titulo {
     line-height: 4rem;
   }
-  @media (max-width: 320px) {
+  @media (max-width: 360px) {
     .menu-de-navegacion__titulo {
-      font-size: 1.1rem;
+      font-size: 1.5rem;
     }
   }
   @media (max-width: 240px) {
