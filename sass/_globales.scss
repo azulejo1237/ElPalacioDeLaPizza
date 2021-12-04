@@ -15,10 +15,10 @@ a {
 p {
   font-family: $fuenteParrafo;
   letter-spacing: 0.1rem;
-  color: tan;
+  color: var(--bs-tan);
 }
 .p--color {
-  color: white;
+  color: var(--bs-light);
 }
 @mixin bg-fondos {
   background-repeat: no-repeat;

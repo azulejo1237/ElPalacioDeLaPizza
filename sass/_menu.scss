@@ -5,20 +5,20 @@
     background-image: url(../img/Madera2.jpg);
     background-size: cover;
     font-family: $fuenteMenu;
-    color: white;
+    color: var(--bs-white);
     font-size: 4rem;
-    border: solid black;
+    border: solid var(--bs-negro);
     border-radius: 2rem;
     text-align: center;
     padding: 1rem 0;
     text-transform: uppercase;
     margin: 10rem 30rem;
   }
-  .seccionMenuPrincipal {
+  .contenedorMenuFondo {
     margin: 10rem 0 0 0;
     background-color: rgba(20, 16, 16, 0.9);
-    color: white;
-    border: solid black 0.3rem;
+    color: var(--bs-white);
+    border: solid var(--bs-negro) 0.3rem;
     border-radius: 3rem;
   }
   .contenedorMenuPrincipal div {
@@ -26,6 +26,9 @@
     font-size: 1.5rem;
     grid-gap: 1rem;
     justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .contenedorMenuPrincipal article {
     margin: 1rem 0 3rem 0;
   }
   .menuComidaNombre {
@@ -36,10 +39,10 @@
   }
   .contenedorMenuPrincipal h3 {
     font-size: 4rem;
-    border: solid black 0.3rem;
+    border: solid var(--bs-negro) 0.3rem;
     border-radius: 10rem;
     text-transform: uppercase;
-    color: #FFD100 ;
+    color: var(--bs-yellow);
     background-size: cover;
     padding: 0 15rem;
     font-family: $fuenteMenu;
@@ -62,7 +65,7 @@
     font-size: 1.8rem;
   }
   .precio {
-    color: wheat;
+    color: var(--bs-light);
     font-size: 1.5rem;
   }
   .menuPizzas,
@@ -84,7 +87,7 @@
     .menu__cartel--centrado {
       margin: 10rem 25rem;
     }
-    .contenedorMenuPrincipal div {
+    .contenedorMenuPrincipal article {
       margin: 2rem;
       margin-bottom: 5rem;
     }
@@ -104,7 +107,7 @@
     .menu__cartel--centrado {
       margin: 5rem 15rem;
     }
-    .contenedorMenuPrincipal div {
+    .contenedorMenuPrincipal article {
       margin: 2rem;
       margin-bottom: 5rem;
     }
@@ -141,7 +144,7 @@
     .menuPostres {
       grid-template-columns: repeat(2, 1fr);
     }
-    .contenedorMenuPrincipal div {
+    .contenedorMenuPrincipal article {
       margin: 5rem;
       margin-bottom: 5rem;
     }
@@ -171,7 +174,7 @@
     .menuPostres {
       grid-template-columns: repeat(1, 1fr);
     }
-    .contenedorMenuPrincipal div {
+    .contenedorMenuPrincipal article {
       margin: 5rem;
       margin-bottom: 5rem;
     }
@@ -206,7 +209,6 @@
       height: 20rem;
     }
     .precio {
-      color: wheat;
       font-size: 3rem;
     }
     .tituloImg {
@@ -233,7 +235,6 @@
       padding: 0 0.1px;
     }
     .precio {
-      color: wheat;
       font-size: 2rem;
     }
     .tituloImg {

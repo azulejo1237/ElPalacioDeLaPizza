@@ -11,34 +11,64 @@
   margin: 2rem 2rem;
   border-radius: 2rem;
   .fieldsetFormulario {
-    padding: 1rem 15rem;
     border: 0;
+    border-radius: 2rem;
+    padding: 0rem 5rem;
   }
   .reservaTitulo {
     font-size: 2rem;
-    color: red;
-    padding: 2rem 0;
+    color: var(--bs-red);
+    background-color: rgba(20, 16, 16, 0.8);
+    padding: 1rem 0;
+    border-radius: 3rem;
+    margin: 0rem;
+    width: 60%;
+  }
+  .fondoTituloReserva {
+    padding: 1rem 0;
     background-color: rgba(5, 0, 0, 0.63);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
   }
   .formularioReserva {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid black;
+    border: solid var(--bs-negro);
     border-radius: 3rem;
     background-color: rgba(5, 0, 0, 0.63);
     line-height: 3rem;
     letter-spacing: 0.1rem;
-    color: white;
+    color: var(--bs-white);
+    margin-top: 1rem;
   }
   .reservasInput {
-    border-radius: 10rem;
+    border-radius: 1rem;
     font-size: 1.2rem;
+    height: 3.5rem;
+    width: 40%;
   }
-  @media (max-width: 768px) {
+  .comentarioReserva {
+    width: 35%;
+  }
+  @media (max-width: 980px) {
     .fieldsetFormulario {
       padding: 0rem 0rem;
-      border: 0;
+      border-radius: 1rem;
+    }
+  }
+  @media (max-width: 320px) {
+    .fondoFormulario {
+      padding: 1rem;
+    }
+    .reservasInput {
+      padding: 0rem 0rem;
+      height: 3rem;
+      width: 10rem;
+    }
+    .comentarioReserva {
+      width: 8rem;
     }
   }
 }
