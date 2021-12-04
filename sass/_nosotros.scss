@@ -28,8 +28,10 @@
     justify-content: center;
     border: solid rgb(0, 0, 0) 0.1rem;
     background-color: rgba(0, 0, 0, 0.7);
-    margin: 10rem 2rem 1.5rem 0;
+    margin: 7rem 2rem 1.5rem 0;
     border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
   }
   .nosotros__parrafo {
     display: flex;
@@ -38,6 +40,21 @@
     font-size: 1.1rem;
     margin: 1rem 2rem;
     line-height: 2rem;
+    object-fit: cover;
+  }
+  @media (max-width: 1030px) {
+    .nosotros__aside {
+      display: block;
+    }
+    .nosotros--fondo {
+      line-height: 1.5rem;
+      margin: 1rem 1.5rem;
+      width: 95%;
+      object-fit: cover;
+    }
+    .nosotros__info {
+      margin-top: 0;
+    }
   }
   @media (max-width: 800px) {
     .nosotros__aside {
@@ -46,6 +63,8 @@
     .nosotros--fondo {
       line-height: 1.5rem;
       margin: 1rem 1.5rem;
+      width: 85%;
+      object-fit: cover;
     }
     .nosotros__info {
       margin-top: 0;
